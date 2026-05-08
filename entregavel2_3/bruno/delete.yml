@@ -1,0 +1,17 @@
+info:
+  name: Deletar Coordenada
+  type: http
+  seq: 5
+
+http:
+  method: DELETE
+  url: http://localhost:8080/geolocation/0
+  body:
+    type: none
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

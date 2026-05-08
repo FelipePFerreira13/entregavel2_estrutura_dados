@@ -1,0 +1,15 @@
+info:
+  name: Atualizar Parcial
+  type: http
+  seq: 4
+
+http:
+  method: PATCH
+  url: http://localhost:8080/geolocation/0
+  body:
+    type: json
+    data: |-
+      {
+        "latitude": -20.0000
+      }
+  auth: inherit
